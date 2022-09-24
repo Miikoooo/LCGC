@@ -31,3 +31,5 @@ while len(players) > 0:
 for i in range(teams):
     print( 'Team {} ist {}'.format(i+1, team_g[i]) )
 
+
+input('') 
