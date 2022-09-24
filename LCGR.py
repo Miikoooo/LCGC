@@ -23,9 +23,9 @@ while len(players) > 0:
         p=random.choice(players)
         team_g[i].append(p)
         players.remove(p)
-        if not players: # Wenn nicht genung Spieler angegeben werden break das Programm
+        if not players: # Wenn nicht genung Spieler angegeben werden break(ed) das Programm
             break
-    continue # Schütz von der break loop 
+    continue # Schütz vor der break loop 
 
 for i in range(teams):
     print( 'Team {} ist {}'.format(i+1, team_g[i]) )
