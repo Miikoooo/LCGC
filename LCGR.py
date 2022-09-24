@@ -1,4 +1,5 @@
 import random, sys
+import PySimpleGUI as sg
 
 #Setzt die Spieleranzahl und Anzahl der Teams fest
 players, p, teams = [], int(input('Wie viele Spielen werden wieder ein qualvolles Customgame spielen: ')), int(input('Wie viele Teams wird es geben (obv. 2): '))
@@ -29,6 +30,4 @@ while len(players) > 0:
 
 for i in range(teams):
     print( 'Team {} ist {}'.format(i+1, team_g[i]) )
-
-
 
